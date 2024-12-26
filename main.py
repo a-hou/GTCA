@@ -196,7 +196,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", type=int, default=1,help="random seed")
     parser.add_argument("--filenpy", type=str, default='distance_matrix_cora.npy', help="topology matrix")
-    parser.add_argument("--nb_epochs", type=int, default=5, help="Number of epochs")
+    parser.add_argument("--nb_epochs", type=int, default=500, help="Number of epochs")
     parser.add_argument("--device", type=int, default=0, help="which GPU to use. Set -1 to use CPU.")
     parser.add_argument("--dataset", type=str, default="cora", help="which dataset for training")
     parser.add_argument("--k", type=int, default=520, help="Number of top similar and dissimilar nodes")
