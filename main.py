@@ -134,7 +134,7 @@ def train():
     Accuaracy_test_allK = []
     numRandom = 20
 
-    for train_num in [1, 2, 3, 4, 20]:
+    for train_num in [20]:
 
         AccuaracyAll = []
         for random_state in range(numRandom):
@@ -207,6 +207,6 @@ if __name__ == '__main__':
     parser.add_argument("--l2_coef", type=float, default=5e-5, help="L2 regularization coefficient")
     parser.add_argument("--batch_size", type=int, default=300, help="Batch size")
     parser.add_argument("--sparse", type=bool, default=False, help="Sparse or not")
-    parser.add_argument("--patience", type=int, default=20, help="Patience for early stopping")
+    parser.add_argument("--patience", type=int, default=3, help="Patience for early stopping")
     parser.add_argument("--best_model_path", type=str, default='best_model.pkl', help="Path to save the best model")
     train()
