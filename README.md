@@ -1,7 +1,7 @@
 # GTCA
 The code of GTCA
 
-## dataset
+## load xxx.npy
 
 You need to run `topology.py` first to generate the `distance_matrix_cora.npy` file.
 
