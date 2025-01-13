@@ -3,7 +3,7 @@ The code of GTCA
 
 ## dataset
 
-You need to load the dataset into the `data` folder.
+You need to run `topology.py` first to generate the `distance_matrix_cora.npy` file.
 
 ## Install dependencies
 You can install the environment using the following command
