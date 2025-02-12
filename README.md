@@ -11,5 +11,3 @@ You can install the environment using the following command
   ```bash
   pip install -r requirements.txt
 
-
-This is a text with a superscript: X<sup>2</sup>
